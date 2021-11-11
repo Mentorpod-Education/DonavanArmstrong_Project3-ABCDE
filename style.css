@@ -414,10 +414,10 @@ footer li:first-child {
   /*overflow: hidden;*/
   -webkit-box-direction: normal;
   -webkit-box-orient: horizontal;
-  -ms-flex-flow: row nowrap;
-  flex-flow: row nowrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
+  -ms-flex-flow: row;
+  flex-flow: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: space-between;
   -webkit-box-shadow: 0px 2px 10px #c9c9c9;
   box-shadow: 0px 2px 10px #c9c9c9;
