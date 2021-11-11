@@ -308,6 +308,7 @@ footer li:first-child {
   }
 }
 
+/* Changed from (max-width: 10280px)*/
 @media only screen and (min-width: 1024px) and (max-width: 1318px) {
   img {
     height: 80%;
@@ -414,10 +415,10 @@ footer li:first-child {
   /*overflow: hidden;*/
   -webkit-box-direction: normal;
   -webkit-box-orient: horizontal;
-  -ms-flex-flow: row;
-  flex-flow: row;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
+  -ms-flex-flow: row; /*changed from "-ms-flex-flow: row nowrap;"*/
+  flex-flow: row;/*changed from "flex-flow: row nowrap;"*/
+  -webkit-box-pack: center;/*changed from "-webkit-box-pack: justify;"*/
+  -ms-flex-pack: center;/*changed from "-ms-flex-pack: justify;"*/
   justify-content: space-between;
   -webkit-box-shadow: 0px 2px 10px #c9c9c9;
   box-shadow: 0px 2px 10px #c9c9c9;
@@ -572,6 +573,7 @@ footer li:first-child {
   }
 }
 
+/* Changed from (max-width: 10280px)*/
 @media only screen and (min-width: 1024px) and (max-width: 1318px) {
   #restaurant figure {
     -webkit-transition: all .2s ease-in-out;
