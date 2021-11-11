@@ -408,8 +408,8 @@ footer li:first-child {
 }
 
 .entreeMenu, .mainMenu, .dessertMenu {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  /*display: -webkit-box;
+  display: -ms-flexbox;*/
   display: flex;
   -webkit-box-direction: normal;
   -webkit-box-orient: horizontal;
