@@ -308,7 +308,7 @@ footer li:first-child {
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 10280px) {
+@media only screen and (min-width: 1024px) and (max-width: 1318px) {
   img {
     height: 80%;
   }
@@ -572,7 +572,7 @@ footer li:first-child {
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 10280px) {
+@media only screen and (min-width: 1024px) and (max-width: 1318px) {
   #restaurant figure {
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
