@@ -1,4 +1,4 @@
-<head>
+/*<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -167,4 +167,234 @@
         </ul>
     </footer>
 </body>
+</html>*/
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Ohmyfood2</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+
+    <!--load all styles -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Shrikhand&display=swap" rel="stylesheet"> 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+       /* $(document).ready(function(){
+          $(".btn_menu2").hover(function(){
+              var elem = this.id;
+              var number = elem.match(/(\d+)/);
+              console.log(number);
+              var final = number['0'];
+              console.log(final);
+              var final2 = ++final;
+              console.log(final2);
+              $('#prices'+final2).css("width", "1px");
+            
+            }, function(){
+                var elem = this.id;
+              var number = elem.match(/(\d+)/);
+              var final = number['0'];
+              var final2 = ++final;
+                $('#prices'+final2).css("width", "78px");
+
+              
+            
+          });
+        });
+     
+      $(document).ready(function(){
+          $(".btn_menu2").hover(function(){
+            $('#prices').css("width", "80%");
+            }, function(){
+            $('#prices').css("width", "150%");
+          });
+        });*/
+        </script>
+</head>
+
+<body>
+    <div class="loading__container">
+        <div class="loading__container__ball"></div>
+        <div class="loading__container__ball"></div>
+        <div class="loading__container__ball"></div>
+        <div class="loading__container__ball"></div>
+        <div class="loading__container__ball"></div>
+        <div class="loading__container__ball"></div>
+        <div class="loading__container__ball"></div>
+        <div class="loading__container__ball"></div>
+    </div>
+
+    <section class="header_section">
+        <h2 class="transparent">transparent</h2>
+        <header class="header height">
+            <a href="index.html" class="back"> <i class="fas fa-arrow-left fa-lg"> </i> </a>
+                
+            <div class="header__logo height">
+                <img alt="ohmyfood" src="images/logo/ohmyfood.png" class="header__logo__responsive">
+
+            </div>
+        </header>
+    </section>
+
+    <section class="section_restaurants menu_restaurant_height">
+        <div class="container_restaurant">
+            <div class="container__container_menu container__container_menu2">
+                <figure class="width bottom">
+                    <a href="" class="link_size">
+                        <div class="restaurant3 clean_borders">
+                        </div>
+                    </a>
+                </figure>
+            </div>
+            <!-- <button class="btn2" type="submit"> 
+            </button> -->
+        </div>
+        <div class="content2">
+            <div class="content2__title"> 
+                <h3 class="content2__title__heading">Bastille</h3> 
+               
+                <i class="far fa-heart fa-lg fa-2x content2__title__heart1"></i>
+                <i class="fas fa-heart fa-lg fa-2x content2__title__heart"></i>
+                
+            </div>
+            <div class="content2__category">
+                <h2 class="content2__category__heading" >ENTREES</h2>
+                <div class="content2__category__heading4"></div>
+                <div class="content2__category__heading2"> 
+                    <div id="prices1" class="btn_menu2">
+                        <div class="btn_menu2__first"> 
+                            <div  class="btn_menu2__first__menu_title">Citrus Squid Carpaccio</div>
+                            <div id="secondary2" class="btn_menu2__first__secondary_text">with orange zest</div> 
+                        </div>
+                        <div id="prices2" class="btn_menu2__price_text">25€</div> 
+                        <div class="btn_menu2__check_buttom"> <div class="btn_menu2__check_buttom__check_img"> </div> </div> 
+                    </div>
+                </div>
+                <div class="content2__category__heading2">
+                    <div id="prices3" class="btn_menu2">
+                        <div class="btn_menu2__first"> 
+                            <div  class="btn_menu2__first__menu_title">Grandmother's Vegetable soup</div>
+                            <div id="secondary4" class="btn_menu2__first__secondary_text">Carrots, parsnips, Jerusalem artichoke</div>
+                        </div> 
+                        <div id="prices4" class="btn_menu2__price_text">35€</div> 
+                        <div class="btn_menu2__check_buttom"> <div class="btn_menu2__check_buttom__check_img"> </div> </div> 
+                    </div> 
+                </div>
+                <div class="content2__category__heading2"> 
+                    <div id="prices5" class="btn_menu2 ">
+                        <div class="btn_menu2__first"> 
+                            <div  class="btn_menu2__first__menu_title">Onion Soup</div>
+                            <div id="secondary6" class="btn_menu2__first__secondary_text">Revisited</div> 
+                        </div> 
+                        <div id="prices6" class="btn_menu2__price_text">20€</div> 
+                        <div class="btn_menu2__check_buttom"> <div class="btn_menu2__check_buttom__check_img"> </div> </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="content2__category">
+                <h2 class="content2__category__heading" >MAIN DISH</h2> 
+                <div class="content2__category__heading4"></div>
+                <div class="content2__category__heading2"> 
+                    <div id="prices7" class="btn_menu2 ">
+                        <div class="btn_menu2__first"> 
+                            <div  class="btn_menu2__first__menu_title">Scallops</div>
+                            <div id="secondary8" class="btn_menu2__first__secondary_text">with mashed parsnip</div> 
+                        </div> 
+                        <div id="prices8" class="btn_menu2__price_text">40€</div> 
+                        <div class="btn_menu2__check_buttom"> <div class="btn_menu2__check_buttom__check_img"> </div> </div> 
+                    </div>
+                </div>
+                <div class="content2__category__heading2"> 
+                    <div id="prices9" class="btn_menu2 ">
+                        <div class="btn_menu2__first"> 
+                            <div  class="btn_menu2__first__menu_title">Magret de canard</div>
+                            <div id="secondary10" class="btn_menu2__first__secondary_text">with mashed potatoes</div> 
+                        </div> 
+                        <div id="prices10" class="btn_menu2__price_text">35€</div> 
+                        <div class="btn_menu2__check_buttom"> <div class="btn_menu2__check_buttom__check_img"> </div> </div> 
+                    </div>
+                </div>
+                <div class="content2__category__heading2"> 
+                    <div id="prices11" class="btn_menu2 ">
+                        <div class="btn_menu2__first"> 
+                            <div  class="btn_menu2__first__menu_title">Game Hen</div>
+                            <div id="secondary12" class="btn_menu2__first__secondary_text">with vegetable gnocchis</div> 
+                        </div> 
+                        <div id="prices12" class="btn_menu2__price_text">44€</div> 
+                        <div class="btn_menu2__check_buttom"> <div class="btn_menu2__check_buttom__check_img"> </div> </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="content2__category">
+                <h2 class="content2__category__heading" >DESSERTS</h2> 
+                <div class="content2__category__heading4"></div>
+                <div class="content2__category__heading2"> 
+                    <div id="prices13" class="btn_menu2 ">
+                        <div class="btn_menu2__first"> 
+                            <div  class="btn_menu2__first__menu_title">Floral Ice Cream</div>
+                            <div id="secondary14" class="btn_menu2__first__secondary_text">with hazelnut butter</div> 
+                        </div> 
+                        <div id="prices14" class="btn_menu2__price_text">18€</div> 
+                        <div class="btn_menu2__check_buttom"> <div class="btn_menu2__check_buttom__check_img"> </div> </div> 
+                    </div>
+                </div>
+                <div class="content2__category__heading2"> 
+                    <div id="prices15" class="btn_menu2 ">
+                        <div class="btn_menu2__first"> 
+                            <div  class="btn_menu2__first__menu_title">Chocolate Lava Cake</div>
+                            <div id="secondary16" class="btn_menu2__first__secondary_text">Revisited</div> 
+                        </div> 
+                        <div id="prices16" class="btn_menu2__price_text">22€</div> 
+                        <div class="btn_menu2__check_buttom"> <div class="btn_menu2__check_buttom__check_img"> </div> </div> 
+                    </div>
+                </div>
+                <div class="content2__category__heading2"> 
+                    <div id="prices17" class="btn_menu2 ">
+                        <div class="btn_menu2__first"> 
+                            <div  class="btn_menu2__first__menu_title">Napolean</div>
+                            <div id="secondary18" class="btn_menu2__first__secondary_text">with blueberries and marzipan</div> 
+                        </div> 
+                        <div id="prices18" class="btn_menu2__price_text">23€</div> 
+                        <div class="btn_menu2__check_buttom"> <div class="btn_menu2__check_buttom__check_img"> </div> </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="content2__category__heading3"> 
+            <button class="order_btn2" type="submit">
+            </button>
+            </div>
+
+
+        </div>
+
+        
+    </section>
+<section class="section_footer">
+    <footer>
+            <div class="container_footer">
+                <h3><a class="footer_name" href="index.html">ohmyfood</a></h3>
+                    
+                <ul>
+                    <li><i class="fas fa-utensils icon padding_right2"></i><a class="clean_link" href="index.html">Suggest a restaurant</a></li>
+                    <li><i class="fas fa-hands-helping icon padding_right2"></i><a class="clean_link" href="index.html">Become a partner</a></li>
+                    <li><a class="clean_link" href="index.html">Legal</a></li>
+                    <li><a class="clean_link" href="mailto:mytriagoco@gmail.Com">Contact</a></li>
+                </ul>
+            </div>         
+    </footer>
+</section>  
+     
+</body>
+
 </html>
